@@ -20,7 +20,7 @@ setuptools.setup(
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
-        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
+        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues", ## BugTracker will also be added in PyPI library
     },
     package_dir={"": "src"},   ## to check setus in src folder where main deepClassifier module is present
     packages=setuptools.find_packages(where="src")
